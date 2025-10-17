@@ -1,16 +1,24 @@
 body{
-    background-color:#6495ed;
+    background-color:#D7F2BA;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 10px;
     padding: 10px;
+    
 
 }
 div{
     margin:0, auto;
+    padding:10px;
+    border-radius:20px;
+    background-color:#BDE4A8;
+    overflow:hidden;
+    box-shadow:5px;
+    
+    
 
 }
 h1{
-    color:darkblue;
+    color:#676F54;
     text-align: center;
     text-decoration-line: underline;
     text-decoration-style:dotted;
@@ -21,12 +29,17 @@ h2{
     color:dodgerblue;
     margin-left:2em;
 }
+h3{
+    background-color:#9CC69B;
+    padding:10px;
+    border-radius:30px;
+    border-color:#676F54;
+}
 p{
     line-height:2em;
 }
 img{
-    float:left;
-    padding: 10px;
+    margin: 1px;
     border-radius:10px;
 
 }
@@ -38,4 +51,15 @@ a:visited{
 }
 #sidebar{
     background-color:deepskyblue
+}
+figure{
+    padding:0 0;
+    margin: 10px 3px;
+}
+figcaption{
+    font-size:small;
+    color:#785e59;
+}
+.imcap{
+    float:left;
 }
