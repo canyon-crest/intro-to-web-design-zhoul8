@@ -26,7 +26,7 @@ h1{
     
 }
 h2{
-    color:dodgerblue;
+    color:rgb(24, 159, 71);
     margin-left:2em;
 }
 h3{
@@ -50,7 +50,7 @@ a:visited{
     color:darkolivegreen
 }
 #sidebar{
-    background-color:deepskyblue
+    background-color:rgb(162, 202, 155);
 }
 figure{
     padding:0 0;
