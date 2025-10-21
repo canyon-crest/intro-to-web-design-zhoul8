@@ -22,7 +22,7 @@ div{
 span{
     margin:0, auto;
     padding:10px;
-    
+
 }
 h1{
     color:#444c30;
@@ -86,7 +86,7 @@ figcaption{
 
 @media(max-width:1200px){
     .column{
-        padding:100px;
+        padding:90px;
     }
     body{background-color:#D4E6B5;border-color:#877B66}
     div{background-color:#AFC97E}
