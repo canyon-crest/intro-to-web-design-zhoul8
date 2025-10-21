@@ -10,9 +10,6 @@ body{
     border-style: dashed;
     border-color: #785e59;
     width:80%;
-
-    
-
 }
 div{
     margin:0, auto;
@@ -21,9 +18,6 @@ div{
     background-color:#BDE4A8;
     overflow:hidden;
     box-shadow:5px;
-    
-    
-
 }
 h1{
     color:#676F54;
@@ -85,15 +79,35 @@ figcaption{
     .column{
         padding:100px;
     }
-
+    body{background-color:#D4E6B5;border-color:#877B66}
+    div{background-color:#AFC97E}
+    h1{color:#877B66}
+    h2{color:#917d2f}
+    h3{background-color:#a49bb2}
+    #sidebar{background-color:#958bb4}
 }
 @media (max-width: 992px){
     .column{
         padding:70px;
     }
+    html{background-image:url(images/backgroundmedium.png)}
+    body{background-color:#D8E1E9;border-color:#877B66}
+    div{background-color:#B3C5D7}
+    h1{color:#7392B7}
+    h2{color:#759EB8}
+    h3{background-color:#759EB8}
+    #sidebar{background-color:#C5D5EA}
 }
 @media (max-width: 768px){
     .column{
-        padding:40px;
+        padding:30px;
     }
+    html{background-image:url(images/backgroundsmall.png)}
+    body{background-color:#B6AD90;border-color:#C2C5AA}
+    div{background-color:#A68A64}
+    h1{color:#333D29}
+    h2{color:#582F0E}
+    h3{background-color:#A68A64;color:#414833}
+    #sidebar{background-color:#936639}
+    figcaption{color:#2f1000}
 }
