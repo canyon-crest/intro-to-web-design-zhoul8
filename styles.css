@@ -19,14 +19,19 @@ div{
     overflow:hidden;
     box-shadow:5px;
 }
+span{
+    margin:0, auto;
+    padding:10px;
+    
+}
 h1{
     color:#444c30;
     text-align: center;
     text-decoration-line: underline;
     text-decoration-style:dotted;
     text-decoration-color: darkgreen;
-    
 }
+
 h2{
     color:rgb(24, 159, 71);
     margin:0 auto;
@@ -47,10 +52,14 @@ img{
 
 }
 a{
-    color:darkslategrey
+    color:darkslategrey;
+    text-decoration:none;
 }
 a:visited{
     color:darkolivegreen
+}
+a:hover{
+   color: darkseagreen;
 }
 #sidebar{
     background-color:rgb(162, 202, 155);
@@ -97,10 +106,13 @@ figcaption{
     h2{color:#759EB8}
     h3{background-color:#759EB8}
     #sidebar{background-color:#C5D5EA}
+    a:hover{
+   color: rgb(44, 147, 153);
+}
 }
 @media(max-width:768px){
     .column{
-        padding:30px;
+        padding:20px;
     }
     html{background-image:url(images/backgroundsmall.png)}
     body{background-color:#B6AD90;border-color:#C2C5AA}
@@ -110,4 +122,8 @@ figcaption{
     h3{background-color:#A68A64;color:#414833}
     #sidebar{background-color:#936639}
     figcaption{color:#2f1000}
+    figure{width:100%}
+    a:hover{
+   color: rgb(112, 74, 30);
+}
 }
