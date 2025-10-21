@@ -75,7 +75,7 @@ figcaption{
     margin: 10px;
 }
 
-@media (max-width: 1200px){
+@media(max-width: 1200px){
     .column{
         padding:100px;
     }
@@ -86,7 +86,7 @@ figcaption{
     h3{background-color:#a49bb2}
     #sidebar{background-color:#958bb4}
 }
-@media (max-width: 992px){
+@media(max-width: 992px){
     .column{
         padding:70px;
     }
@@ -98,7 +98,7 @@ figcaption{
     h3{background-color:#759EB8}
     #sidebar{background-color:#C5D5EA}
 }
-@media (max-width: 768px){
+@media(max-width: 768px){
     .column{
         padding:30px;
     }
